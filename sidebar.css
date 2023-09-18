@@ -1,0 +1,70 @@
+.sidebar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    left: 0;
+    top:70px;
+    width: 70px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.home-icon {
+    width: 20px;
+    height: 20px;
+}
+.home-icon-button {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.shorts-icon {
+    width: 20px;
+    height: 20px;
+
+}
+.shorts-icon-button {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.subscription-icon {
+    width: 20px;
+    height: 20px;
+}
+.subscription-icon-button {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.library-icon {
+    width: 20px;
+    height: 20px;
+}
+.library-icon-button {
+    width: 70px;
+    height: 70px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: white;
+    cursor: pointer;
+}
+.sidebar-text {
+    font-family: roboto,arial;
+    font-size: 8px;
+}
+.button-hover :hover {
+    background-color: lightgray;
+}
